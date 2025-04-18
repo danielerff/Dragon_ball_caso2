@@ -1,0 +1,36 @@
+.character-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+
+.character-detail-card {
+  max-width: 800px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-color: white;
+}
+
+.character-detail-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.character-detail-image {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.character-info {
+  flex: 1;
+}

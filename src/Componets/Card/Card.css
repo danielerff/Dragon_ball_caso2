@@ -1,0 +1,29 @@
+.character-card {
+  width: 240px;
+  height: 360px; /* fuerza que todas tengan misma altura */
+  transition: transform 0.3s ease;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: visible;
+}
+
+.character-card .MuiCardMedia-root {
+  object-fit: contain; /* Muestra la imagen completa */
+  max-height: 400px; /* Ajusta el tamaño máximo */
+  width: 100%; /* Ajusta el ancho */
+  overflow: visible; /* Permite que la imagen sobresalga si es necesario */
+  display: block; /* Asegura que el comportamiento sea consistente */
+  transition: transform 0.3s ease; /* Transición suave para el efecto de hover */
+}
+
+.character-card {
+  overflow: visible; /* Permite que el contenido (imagen) sobresalga */
+}
+
+.character-card:hover .MuiCardMedia-root {
+  transform: scale(1.2); /* Aumenta el tamaño de la imagen al 110% */
+}
