@@ -34,3 +34,19 @@
 .character-info {
   flex: 1;
 }
+
+@media (max-width: 768px) {
+  .character-detail-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .character-detail-image {
+    max-width: 80%;
+  }
+
+  .character-info {
+    padding: 1rem;
+  }
+}
