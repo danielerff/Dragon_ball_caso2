@@ -1,0 +1,12 @@
+.acercade-container {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.acercade-card {
+  padding: 2rem;
+  border-radius: 16px;
+  background-color: #f5f5f5;
+}

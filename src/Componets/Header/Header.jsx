@@ -5,6 +5,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import { useNavigate } from "react-router-dom";
 import Diversity3RoundedIcon from "@mui/icons-material/Diversity3Rounded";
 import ChildCareRoundedIcon from "@mui/icons-material/ChildCareRounded";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 const Header = ({ setGenderFilter }) => {
   const [value, setValue] = useState(0);
@@ -33,6 +34,9 @@ const Header = ({ setGenderFilter }) => {
             if (newValue === 0) handleFilterChange("All");
             if (newValue === 1) handleFilterChange("Female");
             if (newValue === 2) handleFilterChange("Male");
+            if (newValue === 3) {
+              navigate("/Acercade");
+            }
           }}
         >
           <BottomNavigationAction
@@ -43,6 +47,10 @@ const Header = ({ setGenderFilter }) => {
           <BottomNavigationAction
             label="Hombres"
             icon={<ChildCareRoundedIcon />}
+          />
+          <BottomNavigationAction
+            label="Acerca de"
+            icon={<AccountCircleIcon />}
           />
         </BottomNavigation>
       </Box>

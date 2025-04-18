@@ -17,7 +17,7 @@ const CharacterCard = ({ id, name, image, race }) => {
   return (
     <Card className="character-card" onClick={handleClick}>
       <CardActionArea>
-        <CardMedia component="img" height="240" image={image} alt={name} />
+        <CardMedia component="img" image={image} alt={name} />
         <CardContent>
           <Typography gutterBottom variant="h6" component="div">
             {name}
