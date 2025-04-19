@@ -3,10 +3,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  padding: 2rem;
+  background-image: url("https://png.pngtree.com/png-clipart/20230427/original/pngtree-dragon-ball-illustration-png-image_9115754.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Esto hace que la imagen quede fija */
+  background-color: rgba(255, 255, 255, 0.85); /* sobre la .acercade-card */
 }
 
 .acercade-card {
   padding: 2rem;
   border-radius: 16px;
   background-color: #f5f5f5;
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+  animation: pulseGlow 2s infinite;
+  transition: transform 0.3s ease;
+}
+
+/* Animación de luces fluorescentes */
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+  }
+  50% {
+    box-shadow: 0 0 20px #00ffff, 0 0 40px #fd059e;
+  }
+  100% {
+    box-shadow: 0 0 10px #fbff02, 0 0 20px #00ffff;
+  }
 }

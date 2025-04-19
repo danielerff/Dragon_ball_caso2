@@ -7,19 +7,15 @@ const Acercade = () => {
       <Card className="acercade-card" elevation={6}>
         <CardContent>
           <Typography variant="h4" gutterBottom>
-            Acerca de la Aplicación
+            Daniel Fernando Sanchez Chaux
           </Typography>
           <Typography variant="body1" paragraph>
-            Esta aplicación fue desarrollada con React y consume datos desde la
-            API pública de Dragon Ball.
+            estudiante de ingenieria de sistema de la universidad de la amazonia
+            .Cursando la materia de programacion web .
           </Typography>
           <Typography variant="body1" paragraph>
-            Puedes explorar personajes, filtrarlos por género, ver detalles
-            individuales y disfrutar de una experiencia responsiva tanto en
-            escritorio como en móvil.
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Proyecto hecho con ❤️ por Daniel.
+            En esta aplicacion puedes explorar personajes, filtrarlos por
+            género, ver detalles individuales y disfrutar.
           </Typography>
         </CardContent>
       </Card>

@@ -3,3 +3,16 @@
   background-color: #f5f5f5;
   min-height: 100vh;
 }
+
+.homepage-container {
+  min-height: 100vh;
+  padding: 2rem;
+  background-image: url("https://i.pinimg.com/736x/dc/4b/97/dc4b9784e5d6afdf609502453cede462.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Esto hace que la imagen quede fija */
+  backdrop-filter: brightness(
+    0.95
+  ); /* Opcional: oscurece un poco el fondo para mejor contraste */
+}
