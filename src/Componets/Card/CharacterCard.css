@@ -7,6 +7,7 @@
   flex-direction: column;
   position: relative;
   justify-content: space-between;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
 
   /* 💡 Borde glow por defecto */
   box-shadow: 0 0 10px rgba(236, 1, 1, 0.3);
@@ -36,12 +37,12 @@
 /* ✨ Animación de borde fluorescente */
 @keyframes pulseGlow {
   0% {
-    box-shadow: 0 0 10px #fffb03, 0 0 20px #16f816;
+    box-shadow: 0 0 10px #fffb03, 0 0 20px #ff8c09;
   }
   50% {
-    box-shadow: 0 0 20px #ee0987, 0 0 40px #ee0987;
+    box-shadow: 0 0 20px #ee0987, 0 0 40px #ff0202;
   }
   100% {
-    box-shadow: 0 0 10px hsl(180, 100%, 50%), 0 0 20px #00ffff;
+    box-shadow: 0 0 10px hsl(180, 100%, 50%), 0 0 20px #8c8f8f;
   }
 }
