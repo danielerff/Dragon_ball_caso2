@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #000; /* si quieres poner un color base oscuro o cualquiera */
+}

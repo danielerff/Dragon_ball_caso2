@@ -1,5 +1,5 @@
 import React from "react";
-import "./Card.css";
+import "./CharacterCard.css";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -15,7 +15,11 @@ const CharacterCard = ({ id, name, image, race }) => {
   };
 
   return (
-    <Card className="character-card" onClick={handleClick}>
+    <Card
+      className="character-card"
+      onClick={handleClick}
+      style={{ overflow: "visible" }}
+    >
       <CardActionArea>
         <CardMedia component="img" image={image} alt={name} />
         <CardContent>

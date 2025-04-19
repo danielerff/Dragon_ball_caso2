@@ -5,7 +5,7 @@
   overflow: visible;
   display: flex;
   flex-direction: column;
-
+  position: relative;
   justify-content: space-between;
 
   /* 💡 Borde glow por defecto */
@@ -36,7 +36,7 @@
 /* ✨ Animación de borde fluorescente */
 @keyframes pulseGlow {
   0% {
-    box-shadow: 0 0 10px #fffb03, 0 0 20px #f8e116;
+    box-shadow: 0 0 10px #fffb03, 0 0 20px #16f816;
   }
   50% {
     box-shadow: 0 0 20px #ee0987, 0 0 40px #ee0987;

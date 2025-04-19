@@ -97,6 +97,7 @@ const HomePage = ({ genderFilter }) => {
               ref={
                 index === filteredCharacters.length - 1 ? lastElementRef : null
               }
+              sx={{ overflow: "visible" }}
             >
               {card}
             </Grid>
