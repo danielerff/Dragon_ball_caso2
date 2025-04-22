@@ -1,12 +1,11 @@
-.MuiBottomNavigation-root {
-  justify-content: center;
-  background-color: transparent;
-  box-shadow: none;
-}
-
-.MuiBottomNavigationAction-root:hover {
-  transform: scale(1.05);
-  transition: transform 0.2s ease;
+.header-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .header-logo {
@@ -17,12 +16,23 @@
   mix-blend-mode: multiply;
 }
 
-.header-container {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: hsl(0, 2%, 83%);
-  padding: 1rem;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+/* Controles del menú */
+.MuiBottomNavigation-root {
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  margin: auto;
+  max-width: 600px;
+  box-shadow: 0 0 8px #ff7d04;
+}
+
+.MuiBottomNavigationAction-root {
+  color: rgb(4, 104, 255) !important;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.MuiBottomNavigationAction-root:hover {
+  transform: scale(1.2);
+  color: #ffee00 !important;
 }
