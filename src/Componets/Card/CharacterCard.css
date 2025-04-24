@@ -1,3 +1,4 @@
+/* da estilo a la card*/
 .character-card {
   width: 250px;
   height: 400px;
@@ -15,13 +16,13 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Elimina fondo blanco de los hijos */
+/* quita los fondos blancos */
 .character-card .MuiCardActionArea-root,
 .character-card .MuiCardContent-root {
   background-color: transparent;
 }
 
-/* Nombre más grande y al frente */
+/* modifica el nombre del personaje*/
 .character-card .MuiTypography-h6 {
   font-size: 1.2rem;
   font-weight: bold;
@@ -46,17 +47,17 @@
   z-index: 7;
 }
 
-/* Hover sobre imagen */
+/* Hover sobre imagen haciendo que aumente el personaje */
 .character-card:hover .MuiCardMedia-root {
   transform: scale(1.3);
 }
 
-/* Hover con efecto glow */
+/* Hover con efecto glow  las luces de los bordes de la card*/
 .character-card:hover {
   animation: pulseGlow 2s infinite;
 }
 
-/* Animación glow */
+/* Animación glow del contorno  */
 @keyframes pulseGlow {
   0% {
     box-shadow: 0 0 10px #fffb03, 0 0 20px #ff8c09;

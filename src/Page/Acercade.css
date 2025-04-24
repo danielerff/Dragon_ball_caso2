@@ -9,8 +9,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* Esto hace que la imagen quede fija */
-  background-color: rgba(255, 255, 255, 0.85); /* sobre la .acercade-card */
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .acercade-card {
