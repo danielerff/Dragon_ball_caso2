@@ -44,6 +44,7 @@ Aplicación de personajes de Dragon Ball, Esta pagina te permite explorar person
 ## Instalación
 
 1. Clona el repositorio:
+   importante tener Nodes.js
 
 ```bash
 git clone https://github.com/danielerff/Dragon_ball_caso2.git
